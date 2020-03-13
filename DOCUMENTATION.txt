@@ -1,0 +1,45 @@
+APP.vue
+	Components:
+		Header
+		Blog (body section)
+		Footer
+
+-------------------------------------------------//------------------------------------------
+Header.vue
+	Components:
+		none
+	
+	Contains:
+		SCSS related to the header part
+		HTML related to the header part
+
+-------------------------------------------------//------------------------------------------
+Blog.vue
+	HTML
+		on line 3 - loads array from the file exercicio.json located in src/assets/exercicio.json
+		on line 7 - displays the title of the posts
+		on line 8 - creates fading effect for the text of the post
+		on line 9 - hides the text by default
+		on line 12 - triggers the text of the post to appear, this button is visible by default
+		on line 13 - triggers the text of the post to desappear, this button is not visible by default		
+	
+	SCRIPT
+		on line 24 - import the array of information
+		on line 31 - stores the data of the array
+		on line 32 - makes the text on line 9 and the button on line 13 to not be visible
+
+	Components:
+		none
+
+	Methods:
+		function toggleTxt() - triggers the text of the posts to appear on click
+
+
+-------------------------------------------------//------------------------------------------
+Footer.vue
+	Components:
+		none
+	
+	Contains:
+		SCSS related to the footer part
+		HTML related to the footer part
